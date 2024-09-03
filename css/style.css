@@ -258,15 +258,17 @@ header .contentHeader .box a:hover{
     border-color: var(--colorMain);
 }
 header .footHeader ul li{
-    color: white;
     font-size: 1.5em;
     padding: 15px;
+}
+header .footHeader ul li a{
+    color: white;
 }
 header .footHeader ul li i{
     transition: 0.3s;
     cursor: pointer;
 }
-header .footHeader ul li i:hover{
+header .footHeader ul li:hover i{
     color: var(--colorMain);
 }
 /* End Header */
@@ -539,6 +541,25 @@ header .footHeader ul li i:hover{
     width: 100%;
     padding: 25px;
     transition: 0.3s;
+}
+
+/* Styling Icons Languges */
+.html-icon{
+    color: #ea5827;
+}
+.css-icon{
+    color: #264de4;
+}
+.js-icon{
+    color: #ebcc37;
+}
+.portfolio .items .item .textItems p {
+    display: flex;
+    align-items: center;
+}
+.portfolio .items .item .textItems p i{
+    font-size: 26px;
+    margin: 0 5px;
 }
 @media (max-width: 767px){
     .portfolio .items .item .textItems{
