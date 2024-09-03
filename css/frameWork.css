@@ -1,0 +1,291 @@
+/* Start Component */
+:root{
+    --colorMain: #ff0077;
+    --borderColor: #646464;
+    --bgColor: #313131;
+    --replaceColor: #cc7fa3;
+    --bgPage: #151515;
+}
+.between-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.justfay-c{
+    justify-content: center;
+}
+/* End Component */
+.align-center{
+    align-items: center;
+}
+.d-flex{
+    display: flex;
+}
+.d-grid{
+    display: grid;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-25{
+    gap: 25px;
+}
+.gap-40{
+    gap: 40px;
+}
+.gap-50{
+    gap: 50px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-25{
+    padding: 25px;
+}
+.p-40{
+    padding: 40px;
+}
+.ptb-15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.plr-20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.p-20{
+    padding: 20px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.flex-w{
+    flex-wrap: wrap;
+}
+.btn-shape{
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.rad-10{
+    border-radius: 10px;
+}
+.justifay-c{
+    justify-content: center;
+}
+.justifay-start{
+    justify-content: flex-start;
+}
+.flex-d-col{
+    flex-direction: column;
+}
+.d-block{
+    display: block;
+}
+@media (max-width: 767px){
+    .d-block{
+        display: block;
+    }
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-14{
+    font-size: 14px;
+} 
+.fs-15{
+    font-size: 15px;
+}
+.fs-17{
+    font-size: 17px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-19{
+    font-size: 19px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-23{
+    font-size: 23px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-28{
+    font-size: 28px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-35{
+    font-size: 35x;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fs-50{
+    font-size: 50px;
+}
+.fs-55{
+    font-size: 55px;
+}
+.fs-75{
+    font-size: 75px;
+}
+.m-0{
+    margin: 0;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mt-8{
+    margin-top: 8px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mb-8{
+    margin-bottom: 8px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.lh-5{
+    line-height: 1.5;
+}
+.lh-6{
+    line-height: 1.6;
+}
+.c-main{
+    color: var(--colorMain);
+}
+.c-white{
+    color: white;
+}
+.c-border{
+    color: var(--borderColor);
+}
+.fit-content{
+    width: fit-content;
+}
+.c-Pointer{
+    cursor: pointer;
+}
+.p-relative{
+    position: relative;
+}
+.row-r{
+    flex-direction: row-reverse;
+}
+.text-c{
+    text-align: center;
+}
+.text-r{
+    text-align: right;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.c-gray{
+    color: var(--bgColor);
+}
+.fw-bold{
+    font-weight: bold;
+}
+.c-3131{
+    color: var(--borderColor);
+}
+.c-333{
+    color: #333;
+}
+.variant-f{
+    font-variant: all-small-caps;
+}
+.c-white{
+    color: white;
+}
+.colorSpan{
+    color: #621b7f;
+}
+.flex-1{
+    flex: 1;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.c-9d9b9b{
+    color: #cfcccc;
+}
+.c-e384b1{
+    color: #e384b1;
+}
+.bg-main{
+    background-color: var(--colorMain);
+}
+.bg-white{
+    background-color: white;
+}
+.bg-eee{
+    background-color: #eee;
+}
+.w-full{
+    width: 100%;
+}
+.border-none{
+    border: none;
+}
